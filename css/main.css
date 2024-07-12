@@ -120,17 +120,15 @@ body::-webkit-scrollbar {
 
 
 /** Header Menu Phone **/
-/*** Header Phone **/
 
 
-/***Chat gpt here **/
-/* Basic styling for the dropdown */
+
+
 .dropdown {
     position: relative;
     display: inline-block;
 }
 
-/* Button styling */
 .dropdown-button {
     background-color: #ffffff00;
     color: white;
@@ -146,7 +144,6 @@ body::-webkit-scrollbar {
     border-radius: 5px;
 }
 
-/* Dropdown content styling */
 .dropdown-content {
     display: none;
     position: absolute;
@@ -156,17 +153,14 @@ body::-webkit-scrollbar {
     z-index: 1;
 }
 
-/* Show dropdown content when the button or its child (image) is focused */
 .dropdown:focus-within .dropdown-content {
     display: block;
 }
 
-/* Hide the focus outline on the button */
 .dropdown-button:focus {
     outline: none;
 }
 
-/* Links inside the dropdown */
 .dropdown-content a {
     color: black;
     padding: 12px 16px;
@@ -174,18 +168,16 @@ body::-webkit-scrollbar {
     display: block;
 }
 
-/* Change color of links on hover */
 .dropdown-content a:hover {
     background-color: #f1f1f1;
 }
 
-/* Basic styling for the dropdown-container */
 .dropdown-search {
     position: relative;
     display: inline-block;
 }
 
-/* Button styling */
+
 .dropdown-btn-search {
     background: none;
     border: none;
@@ -249,6 +241,9 @@ body::-webkit-scrollbar {
     background-size: cover;
     width: 100%;
     height: 43.65vw;
+}
+
+.content-intro-div{
 }
 
 .intro h1 {
@@ -374,15 +369,12 @@ body::-webkit-scrollbar {
 
 .learn-more .section1 {
     width: 45%;
+    background: #F9F9F9;
     margin-right: 15px;
 }
 
-.learn-more .section2 {
-    width: 45%;
-}
 
-.section1 img,
-.section2 img {
+.section1 img{
     width: 100%;
 }
 
@@ -390,12 +382,19 @@ body::-webkit-scrollbar {
     display: flex;
     flex-direction: row;
     color: #B7926A;
+    font-size: 20px;
     text-decoration: none;
+    align-items: center;
 }
 
 .learnmmore-link img {
     height: 18px;
     width: 18px;
+    margin-left: 5px;
+}
+.section1-description{
+    height: 207px;
+    padding: 20px 10px;
 }
 .section1-description h3{
     margin: 10px 0px 10px 0px;
@@ -407,7 +406,7 @@ body::-webkit-scrollbar {
     font-weight: 400;
     font-size: 18px;
     line-height: 22px;
-    margin: 10px 0px 10px 0px;
+    margin: 10px 0 30px 0;
 }
 
 /** Shop Now **/
