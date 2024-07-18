@@ -9,8 +9,6 @@
     background-color: transparent;
     border: 2px solid rgba(255, 255, 255, .5);
     border-radius: 4px;
-    box-shadow: 0 .25em .5em 0 rgba(0, 0, 0, .1);
-    text-shadow: 0 .25em .5em rgba(0, 0, 0, .1);
     opacity: 1;
     cursor: pointer;
     transition: opacity 150ms ease, border 300ms ease-in-out;
@@ -27,11 +25,11 @@
 }
 
 .glide__arrow--left {
-    left: -4em
+    left: -7em
 }
 
 .glide__arrow--right {
-    right: -4em
+    right: -7em
 }
 
 .glide__arrow--disabled {
